@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+body {
+    background: linear-gradient(to top, #020103, #c02042);
+    padding-top: 80px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+  .Nav{
+    background-color: #90132F;
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    margin-left: 15%;
+    border: 2px solid #230F15;
+    width: 60%;
+    height: 10%;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0.9, 5, 0.9);
+}
+
+.Nav button{
+    position: relative;
+    margin: 0 auto; 
+    width: 100px;
+    height: 40px; 
+    background-color: #230F15; 
+    color: white; 
+    border: 2px solid #c02042; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-align: center; 
+}
+.Nav button:hover{
+    background-color: #90132F;
+    transform: scale(1.5);
+    transition: transform 0.3s ease;
+}
+.profile{
+margin-left: 200px;
+display: flex;
+align-items: center;
+gap:20px;
+}
+.Intro{
+    font-size: large;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #90a7a8;
+    text-align: center;
+    margin: 10%;
+    top: 10%;
+}
+.image{
+    margin-right: 0%;
+    width: 400px;
+    height: 500px;
+    border: 3px solid #230F15;
+    border-radius: 100%;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+   
+}
